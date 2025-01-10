@@ -1,6 +1,6 @@
 from flask import Flask, redirect,render_template,request,flash,url_for,session
 from flaskapp import app,db,login_manager
-from flaskapp.models import User,diabete,heart,Kidney,lungs
+from flaskapp.models import User,diabete,heart,kidney,lungs
 from sklearn.ensemble import RandomForestClassifier,RandomForestRegressor
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.linear_model import LogisticRegression,LinearRegression
